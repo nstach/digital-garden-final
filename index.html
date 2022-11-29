@@ -47,10 +47,10 @@
         .header2 {
         width: 500px;
         height: 100px;
-        top: 200px;
+        top: -55px;
         left: 100px;
         z-index: 6;
-        position: absolute;
+        position: relative;
       }
       
         .header3 {
@@ -69,9 +69,9 @@
       .table {
         width: 200px;
         height: 670px;
-        top: 305px;
-        left: 25px;
-        position: absolute;
+        top: 335px;
+        right: 500px;
+        position: relative;
       }
       
         .cupcake{
@@ -92,8 +92,62 @@
     position: absolute;
   }
       
-      #table{
+      #table #bread #breadno #pretzel #gnocchi #asparagus #potato #oyakodon #curry #lasagna #pizza #pork
+      #chicken #chickenbowl #meringue #chickenroll #dango #cake #cinnamon #pizza #pie #pumpkincake #cookie #brownie
+      {
         font-family: Trattatello, fantasy;
+      }
+      
+      .recipetitle{
+        background: PeachPuff;
+        border: 5px solid tan;
+        width: 300px;
+        height: 100px;
+        top: 200px;
+        z-index: 6;
+        position: absolute;
+      }
+      
+      .recipedescription{
+        background: PeachPuff;
+        border: 5px solid tan;
+        width: 500px;
+        height: 100px;
+        top: 1510px;
+        z-index: 6;
+        position: absolute;
+      }
+      
+      .h4{
+        content: center;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        font-family: Trattatello, fantasy;
+        font-size: 30px;
+      }
+      
+      .bread{
+      	top: 1100px;
+        content: center;
+        position: absolute;
+      }
+      
+      .breadimage{
+	    width: 400px;
+    	height: 300px;
+    	z-index: 6;
+   	  top: 1210px;
+      position: absolute;
+      content: center;
+      }
+      
+      .h3{
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        font-family: Trattatello, fantasy;
+        font-size: 50px;
       }
       
     </style>
@@ -114,35 +168,40 @@
     </div>
     
     <div class="textbox table" style="font-family:Trattatello, fantasy">
-      <a href="#section-2">Bread Recipe</a><br>
-      <a href="#section-3">Bread Recipe (no yeast)</a><br>
-      <a href="#section-3">Pretzel Recipe</a><br>
-      <a href="#section-4">Gnocchi Recipe</a><br>
-      <a href="#section-2">Asparagus Twist Recipe</a><br>
-      <a href="#section-3">Fondant Potato Recipe</a><br>
-      <a href="#section-4">Oyakodon Recipe</a><br>
-      <a href="#section-2">Japanese Curry Recipe</a><br>
-      <a href="#section-3">Lasagna Recipe</a><br>
-      <a href="#section-4">Pizza Recipe</a><br>
-      <a href="#section-2">Rosemary Pork Recipe</a><br>
-      <a href="#section-3">Poached Chicken Recipe</a><br>
-      <a href="#section-4">Chicken and Gnocchi Recipe</a><br>
-      <a href="#section-2">Chicken Cordon Bleu Recipe</a><br>
-      <a href="#section-3">Dango Recipe</a><br>
-      <a href="#section-4">Sponge Cake Recipe</a><br>
-      <a href="#section-2">Japanese Curry Recipe</a><br>
-      <a href="#section-3">Cinnamon Roll Recipe</a><br>
-      <a href="#section-4">Pizza Recipe</a><br>
-      <a href="#section-2">Whoopie Pie Recipe</a><br>
-      <a href="#section-3">Chocolate Pumpkin Cake Recipe</a><br>
-      <a href="#section-4">Swirl Sugar Cookie Recipe</a><br>
-      <a href="#section-4">Sweet Potato Brownie Recipe</a><br>
+      <a href="#bread">Bread Recipe</a><br>
+      <a href="#breadno">Bread Recipe (no yeast)</a><br>
+      <a href="#pretzel">Pretzel Recipe</a><br>
+      <a href="#gnocchi">Gnocchi Recipe</a><br>
+      <a href="#asparagus">Asparagus Twist Recipe</a><br>
+      <a href="#potato">Fondant Potato Recipe</a><br>
+      <a href="#oyakodon">Oyakodon Recipe</a><br>
+      <a href="#curry">Japanese Curry Recipe</a><br>
+      <a href="#lasagna">Lasagna Recipe</a><br>
+      <a href="#pizza">Pizza Recipe</a><br>
+      <a href="#pork">Rosemary Pork Recipe</a><br>
+      <a href="#chicken">Poached Chicken Recipe</a><br>
+      <a href="#chickenbowl">Chicken and Gnocchi Recipe</a><br>
+      <a href="#chickenroll">Chicken Cordon Bleu Recipe</a><br>
+      <a href="#dango">Dango Recipe</a><br>
+      <a href="#cake">Sponge Cake Recipe</a><br>
+      <a href="#meringue">Meringue Recipe</a><br>
+      <a href="#cinnamon">Cinnamon Roll Recipe</a><br>
+      <a href="#pizza">Pizza Recipe</a><br>
+      <a href="#pie">Whoopie Pie Recipe</a><br>
+      <a href="#pumpkincake">Chocolate Pumpkin Cake Recipe</a><br>
+      <a href="#cookie">Swirl Sugar Cookie Recipe</a><br>
+      <a href="#brownie">Sweet Potato Brownie Recipe</a><br>
     </div>
 
   <img src="cupcake.jpg" class="cupcake" alt="A tray of cupcakes.">
 
 	<img src="flowercake.jpg" class="flowercake" alt="A cake with a field of flowers on it.">
-
-
+    
+<div class="recipetitle bread h3" id="bread"> Bread Recipe</div>
+	<img src="breadyeast.jpg" class="breadimage" alt="A loaf of bread.">
+    
+  <div class="recipedescription h4">Found <a href="https://www.lifeasastrawberry.com/easy-crusty-french-bread/" target="_blank"> here</a>
+    <br> A classic, crusty, yeasty bread. </div>
+    
   </body>
 </html>

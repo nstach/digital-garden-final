@@ -47,10 +47,9 @@
       .header2 {
         width: 500px;
         height: 100px;
-        top: -55px;
-        left: 100px;
+        top: 250px;
         z-index: 6;
-        position: relative;
+        position: absolute;
       }
 
       .header3 {
@@ -69,9 +68,11 @@
       .table {
         width: 200px;
         height: 670px;
-        top: 335px;
-        right: 500px;
-        position: relative;
+        top: 355px;
+        position: absolute;
+        left: 50%; 
+        transform: translateX(-50%);
+        margin-left: -215px;
       }
 
       .cupcake {
@@ -531,6 +532,25 @@
         position: absolute;
         content: center;
       }
+      
+            .pecanpie {
+        top: 14450px;
+        content: center;
+        position: absolute;
+      }
+
+      .pecanpie2 {
+        top: 14750px;
+      }
+
+      .pecanpieimage {
+        width: 300px;
+        height: 200px;
+        z-index: 6;
+        top: 14560px;
+        position: absolute;
+        content: center;
+      }
 
 
       .h3 {
@@ -540,6 +560,31 @@
         font-family: Trattatello, fantasy;
         font-size: 50px;
       }
+      
+      .spreadimage {
+        width: 300px;
+        height: 300px;
+        z-index: 6;
+        content: center;
+        position:absolute;
+    		top:15000px;
+      }
+      
+            .cupcake2image {
+        width: 300px;
+        height: 250px;
+        z-index: 6;
+        top: 15400px;
+        position: absolute;
+        content: center;
+      }
+      
+            .thanks {
+        top: 15300px;
+      }
+
+
+      
     </style>
 
 
@@ -575,11 +620,11 @@
       <a href="#cake">Sponge Cake Recipe</a><br>
       <a href="#meringue">Meringue Recipe</a><br>
       <a href="#cinnamon">Cinnamon Roll Recipe</a><br>
-      <a href="#pizza">Pizza Recipe</a><br>
       <a href="#pie">Whoopie Pie Recipe</a><br>
       <a href="#pumpkincake">Chocolate Pumpkin Cake Recipe</a><br>
       <a href="#cookie">Swirl Sugar Cookie Recipe</a><br>
       <a href="#brownie">Sweet Potato Brownie Recipe</a><br>
+      <a href="#pecanpie">Pecan Pie Recipe</a><br>
     </div>
 
     <img src="cupcake.jpg" class="cupcake" alt="A tray of cupcakes.">
@@ -711,6 +756,18 @@
 
     <div class="recipedescription h4 brownie2">Found <a href="https://www.southernliving.com/recipes/sweet-potato-brownies" target="_blank"> here</a>
       <br> Sweet potato brownies. </div>
+    
+       <div class="recipetitle pecanpie h3" id="pecanpie"> Pecan Pie</div>
+    <img src="pecanpie.jpg" class="pecanpieimage" alt="Pecan Pie.">
+
+    <div class="recipedescription h4 pecanpie2">Found <a href="https://sallysbakingaddiction.com/maple-pecan-pie/" target="_blank"> here</a>
+      <br> A pecan pie without corn syrup. </div>
+    
+    
+    <img src="spread.jpg" class="spreadimage" alt="A spread of food.">
+    <img src="cupcake2.jpg" class="cupcake2image" alt="More cupcakes.">
+
+    <div class="recipedescription h4 thanks">Thank you for <br>viewing my page! </div>
 
   </body>
 </html>

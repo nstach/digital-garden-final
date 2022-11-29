@@ -19,19 +19,36 @@
         z-index: 9;
         position: fixed;
         top: 0px;
-        color: tan;
+        color: black;
         line-height: 1.5;
         display: inline-block;
         text-align: center;
         vertical-align: middle;
+        font-family: Trattatello, fantasy;
+        font-size: 20px;
+      }
+      
+      .h2{
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        font-family: Trattatello, fantasy;
+        font-size: 20px;
       }
 
       .header {
-        width: 700px;
+        width: 500px;
         height: 100px;
         z-index: 8;
         position: fixed;
         top: 0px;
+      }
+      
+        .header2 {
+        width: 500px;
+        height: 100px;
+        z-index: 6;
+        top: 50px;
       }
 
       .textbox {
@@ -41,7 +58,7 @@
 
       .table {
         width: 200px;
-        height: 725px;
+        height: 750px;
         top: 200px;
         left: 25px;
         position: absolute;
@@ -51,12 +68,16 @@
 
   </head>
   <body>
-    <div class="header textbox">
-      <h1 style="font-family:Trattatello, fantasy"> Welcome to my digital cookbook!</h1>
-    </div>
-    <div class="textbox table" style="font-family:Trattatello, fantasy">
-      <h2>
+    <div class="header textbox h1">
+      <h1> Welcome to my digital cookbook!</h1>
+    </div> 
+    
+    <div class="textbox h2 header2">
+    <h2>
       Table of Contents: </h2>
+    </div>
+    
+    <div class="textbox table" style="font-family:Trattatello, fantasy">
       <a href="#section-2">Bread Recipe</a><br>
       <a href="#section-3">Bread Recipe (no yeast)</a><br>
       <a href="#section-3">Pretzel Recipe</a><br>
@@ -79,6 +100,7 @@
       <a href="#section-2">Whoopie Pie Recipe</a><br>
       <a href="#section-3">Chocolate Pumpkin Cake Recipe</a><br>
       <a href="#section-4">Swirl Sugar Cookie Recipe</a><br>
+      <a href="#section-4">Sweet Potato Brownie Recipe</a><br>
     </div>
 
 
